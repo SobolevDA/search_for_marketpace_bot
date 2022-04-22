@@ -25,7 +25,7 @@ driver = webdriver.Chrome(
 query = "asus f5r"
 
 try:
-    url = "https://www.avito.ru/"+region["Московская область"]+"?q=" + query
+    url = ""+region["Московская область"]+"?q=" + query
     driver.get(url)
     
     
